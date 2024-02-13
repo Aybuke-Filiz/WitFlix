@@ -52,13 +52,13 @@ header h1,header div{
     width:30%;
 }
 
-header nav a{
+nav a{
     margin: 0 0.5rem;
     text-decoration: none;
     color: rgb(59, 59, 59);
 }
 
-header nav a:hover{
+ nav a:hover{
     color: red;
 }
 
@@ -94,7 +94,7 @@ main{
     margin: 1rem;
     border: 1px solid black;
     padding: 2rem;
-    height: 70vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,4 +113,65 @@ main h2{
 }
 .description{
     width: 50%;
+}
+/*section*/
+section{
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.section-content,.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+.section-content{
+    padding: 2rem;
+    
+}
+.card{
+    width: 30%;
+    aspect-ratio: 2/1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+}
+.card h4{
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+.card .age-restriction{
+    margin-left: 0;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: flex-start;
+    margin: 1rem;
+}
+footer nav{
+    display:flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+footerp:nth-child(n+1){
+    margin-top: 0;
+}
+footer img{
+    height: 3rem;
+    margin-top: -0.4;
+}
+footer div:first-child{
+    flex-basis: 60%;
+    flex-grow: 1;
+}
+footer nav a:first-child{
+    margin-left: 0;
 }
