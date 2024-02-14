@@ -113,7 +113,7 @@ main h2{
     font-size: 3rem;
     margin: 1.5rem 0;
 }
-.details-container{
+.details-container p{
     margin: 1vh 0;
 }
 .description{
@@ -130,10 +130,6 @@ section{
     justify-content: space-between;
     align-items: center;
     gap: 4rem;
-}
-.section-content{
-    padding: 2rem;
-    
 }
 .card{
     width: 30%;
@@ -210,7 +206,8 @@ footer nav a:first-child{
     }
     .card{
         padding: 1rem;
-        width: 50%;
+        min-width: 40%;
+        margin-bottom:20px ;
     }
     .card.btn-l{
      padding: 0.6rem 1.5rem;
